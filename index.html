@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Load Demo</title>
+</head>
+<body>
+    <p id="content">...</p>
+    <script defer>
+        const paragraph = document.querySelector<HTMLParagraphElement>("p#content");
+        
+        paragraph.innerText = Math.random()
+    </script>
+</body>
+</html>
